@@ -5,6 +5,9 @@ Phase 1;
 - displays the actual temprature, the set temperature and the "heat ON/OFF"  
 - set the temperature remote 
 - remotely displays the actual temprature, the set temperature and the "heat ON/OFF"
+- graphic history of temperature, set temperature and battery level. 
+- motion detection 
+- batery level 
 
 Phase 2; 
 - DynamicDNS
