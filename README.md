@@ -13,6 +13,7 @@ Phase 2;
 - DynamicDNS
 - Weather (rain) forcast
 - time & date 
+- security
 
 Phase 3; 
 - week program 
