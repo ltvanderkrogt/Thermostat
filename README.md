@@ -10,6 +10,7 @@ Phase 1;
 - batery level 
 
 Phase 2; 
+- Over The Air upload sketch(OTA)
 - DynamicDNS
 - Weather (rain) forcast
 - time & date 
@@ -17,3 +18,4 @@ Phase 2;
 
 Phase 3; 
 - week program 
+- remote switching heater(portable thermostat) 
