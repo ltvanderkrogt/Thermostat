@@ -1,3 +1,5 @@
+//test 
+
 const int  buttonPinUp = 2;    // the pin that the pushbutton is attached to
 const int  buttonPinDown = 3;    // the pin that the pushbutton is attached to
 const int ledPin = 13;       // the pin that the LED is attached to
@@ -10,7 +12,7 @@ int buttonStateDown = 0;         // current state of the button
 int lastButtonStateDown = 0;     // previous state of the button
 int Temp = 20;
 String Brander;
-Hello 
+
 void setup() {
   // initialize the button pin as a input:
   pinMode(buttonPinUp, INPUT);
