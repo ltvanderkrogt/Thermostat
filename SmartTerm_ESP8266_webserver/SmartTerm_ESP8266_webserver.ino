@@ -32,17 +32,13 @@ void getTemp(float MTemp);                                      //declaration of
 void checkClient();                                             //declaration of this function
 void Thermostat(String Heater);                                 //declaration of this function
 
-//char ssid[] = "TP-LINK_DS";    //  your network SSID (name)
-//char password[] = "doitnow9723";   // your network password
-//char ssid[] = "Berkenheuvel";    //  your network SSID (name)
-//char password[] = "31521388438";   // your network password
-char ssid[] = "pelikaan";    //  your network SSID (name)
-char password[] = "8270000928";   // your network password
+char ssid[] = " ";    //  your network SSID (name)
+char password[] = " ";   // your network password
 //
 // thingspeak
-unsigned long myChannelNumber = 77989;
-const char * myWriteAPIKey = "WSETSP7TXYNO3XT2";
-const char * myReadAPIKey = "66OFPYE4R1W4NJVH";
+unsigned long myChannelNumber =  ;
+const char * myWriteAPIKey = " ";
+const char * myReadAPIKey = " ";
 
 //// Replace with your network credentials
 //const char* ssid = "nnnnnnnnnn";
