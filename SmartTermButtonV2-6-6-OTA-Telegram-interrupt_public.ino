@@ -7,7 +7,7 @@
     https://web.telegram.org/#/im?p=@FlashledBot_bot
  *                                                                 *
     written by Giancarlo Bacchio
-    modified by Leon van der Krogt (group commands and security)
+    modified by Leon van der Krogt (Telegram group commands and security, thermostat, thinkspeak, etc)
  *******************************************************************/
 /* Pin (on the board)  Function  ESP8266 correspondence
   TX    TXD       TXD
