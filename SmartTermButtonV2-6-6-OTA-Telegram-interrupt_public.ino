@@ -1,6 +1,33 @@
-// buttons geen response
-//test 3
-//MAC dc350f
+/*******************************************************************
+    this is a basic example how to program a Telegram Bot
+    using TelegramBOT library on ESP8266
+ *                                                                 *
+    Open a conversation with the bot, you can command via Telegram
+    a led from ESP8266 GPIO
+    https://web.telegram.org/#/im?p=@FlashledBot_bot
+ *                                                                 *
+    written by Giancarlo Bacchio
+    modified by Leon van der Krogt (group commands and security)
+ *******************************************************************/
+/* Pin (on the board)  Function  ESP8266 correspondence
+  TX    TXD       TXD
+  RX    RXD       RXD
+  A0    Analog input, max 3.3V input  A0
+  D0  IO  GPIO16
+  D1  IO, SCL GPIO5
+  D2  IO, SDA GPIO4
+  D3  IO, 10k Pull-up GPIO0
+  D4  IO, 10k Pull-up, BUILTIN_LED  GPIO2  // do not use this as output, esp won't start at power on!
+  D5  IO, SCK GPIO14
+  D6  IO, MISO  GPIO12
+  D7  IO, MOSI  GPIO13
+  D8  IO, 10k Pull-down, SS GPIO15
+  G GND GND
+  5V  5V  –
+  3V3 3.3V  3.3V
+  RST Reset RST
+*/
+
 String the_path = __FILE__;
 int slash_loc = the_path.lastIndexOf('/');
 String the_cpp_name = the_path.substring(slash_loc + 1);
